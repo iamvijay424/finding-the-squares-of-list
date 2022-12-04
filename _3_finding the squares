@@ -1,0 +1,7 @@
+num=int(input('enter the number of number of element in the list:'))
+lst=[]
+for i in range(num):
+    element=int(input('enter the element:'))
+    output_lst=lst.append(element)
+output=list(map(lambda fun1:fun1**2,lst))
+print('the resultant output is:',output)
